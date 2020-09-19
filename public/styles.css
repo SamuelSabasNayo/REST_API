@@ -1,0 +1,142 @@
+@import url('http://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+        body {
+             max-width: 1200px;
+             margin: 20px auto;
+             padding:  0 20px;
+             font-family: 'Noto Serif', serif;
+        }
+
+        p, h1, h2, h3, a, ul {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            color: #222;
+        }
+
+        nav {
+            border-bottom: 2px solid #777;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            padding-bottom: 1px solid #ddd;
+            text-transform: uppercase;
+            margin-left: 50%;
+        }
+
+        nav li {
+            list-style: none;
+            margin-left: 20%;
+        }
+
+        nav h1 {
+            font-size: 3em;
+        }
+
+        nav p, nav a {
+            color: #777;
+            font-weight: 300;
+        }
+
+        footer {
+            color: #777;
+            text-align: center;
+            margin: 80px auto 20px;
+        }   
+
+        h2 {
+            margin: 40px 0;
+        }
+
+        h3 {
+            text-transform: capitalize;
+            margin-bottom: 8px;
+        }
+
+        form {
+            width: 40%;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .content {
+            margin: auto;
+        }
+
+        /*  index styles */
+        .blogs a {
+            display: block;
+            margin: 40px 0;
+            padding-left: 30px;
+            border-left: 6px solid crimson;
+        }
+
+        .blogs a h3:hover {
+            color: crimson;
+        }
+
+        /* details styles */
+        .details {
+            position: relative;
+        }
+
+        .edit {
+            position: absolute;
+            top: 0;
+            right: 6%;
+            border-radius: 8%;
+            padding: 8px;
+            color: #fff;
+            background: #777;
+        }
+
+        .edit:hover {
+            cursor: pointer;
+            box-shadow: 1px 2px 3px rgba(0, 0, 0, .2);
+        }
+        .delete {
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-radius: 8%;
+            padding: 8px;
+            color: #fff;
+            background: #777;
+        }
+
+        .delete:hover {
+            cursor: pointer;
+            box-shadow: 1px 2px 3px rgba(0, 0, 0, .2);
+        }
+
+        input,
+        textarea {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 8px;
+        }
+
+        /* create styles */
+        .create-blog form
+
+        label {
+            display: block;
+            margin-top: 24px;
+        }
+
+        textarea {
+            height: 120px;
+        }
+
+        button {
+            margin-top: 20px;
+            background: crimson;
+            color: white;
+            padding: 6px;
+            border: 0;
+            font-size: 1.2em;
+            cursor: pointer;
+        }
